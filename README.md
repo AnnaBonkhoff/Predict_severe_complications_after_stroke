@@ -11,4 +11,6 @@ Older versions may work, the following ones were employed:
 - python 3.7.1
 - sklearn 0.23.1
 
+Contact: annabonkhoff@gmail.com
+
 
