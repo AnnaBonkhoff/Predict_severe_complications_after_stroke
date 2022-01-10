@@ -3,7 +3,7 @@
 Trained models, as described in our publication (to be added upon acceptance), have been saved via Pickle (and can be loaded into the jupyter notebook 
 
 
-## Required patient information to generate new predictions
+#### Required patient information to generate new predictions
 
 The following clinical information need to be entered to generate predictions for each new patient (respective fields in the jupyter notebooks are marked:
 
