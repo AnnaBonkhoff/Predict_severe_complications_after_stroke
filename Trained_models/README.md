@@ -1,13 +1,16 @@
 # Step-by-step description
 
-Trained models, as described in our publication (to be added upon acceptance), have been saved via Pickle (and can be loaded into the jupyter notebook 
+Trained models, as described in our publication (to be added upon acceptance), have been saved via Pickle (https://wiki.python.org/moin/UsingPickle).
+
+In order to reuse our trained models to predict in-hospital mortality or severe complications after acute ischemic strokes, our jupyter notebook files need to be downloaded together with the respective .pkl-files that contain information on the trained models.
+
+
 
 
 #### Required patient information to generate new predictions
 
-The following clinical information need to be entered to generate predictions for each new patient (respective fields in the jupyter notebooks are marked:
+The following clinical information need to be entered to generate predictions for each new patient (respective fields in the jupyter notebooks are marked):
 
-Sociodemographic aspects:
 Age (in years)
 
 Sex_female (0 male, 1 female)
@@ -16,10 +19,10 @@ care_at_home (0 no, 1 yes)
 
 nursing_home (0 no, 1 yes)
 
-Symtoms and scores at admission:
 Paresis (0 no, 1 yes)
 
 Language_impairment (0 no, 1 yes)
+
 Speech_impairment (0 no, 1 yes)
 
 Swallowing_impairment (0 no, 1 yes)
@@ -36,7 +39,6 @@ Barthel_index_transition_bed_chair (0, 5, 10, 15)
 
 Barthel_index_mobility (0, 5, 10, 15)
 
-Comorbidities:
 Comorbidity_diabetes_mellitus (0 no, 1 yes)
 
 Comorbidity_hypertension (0 no, 1 yes)
@@ -51,12 +53,10 @@ Comorbidity_atrial_fibrillation (0 no, 1 yes)
 
 Comorbidity_atrial_fibrillation_newly_diagnosed (0 no, 1 yes)
 
-Therapies:
 Thrombolysis_iv (0 no, 1 yes)
 
 Thrombectomy_thrombolysis_ia (0 no, 1 yes)
 
-Month of admission:
 January (0 no, 1 yes)
 
 February (0 no, 1 yes)
@@ -81,7 +81,6 @@ November (0 no, 1 yes)
 
 December (0 no, 1 yes)
 
-Stroke etiology:
 atherothrombotic (0 no, 1 yes)
 
 embolic (0 no, 1 yes)
@@ -94,7 +93,6 @@ competing_causes (0 no, 1 yes)
 
 unknown_cause (0 no, 1 yes)
 
-Further stroke characteristics
 Stenosis (0 no, 1 yes, large vessel occlusion)
 
 Stenosis_not_evaluated (0 no, 1 yes)
