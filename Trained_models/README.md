@@ -2,14 +2,11 @@
 
 Trained models, as described in our publication (to be added upon acceptance), have been saved via Pickle (https://wiki.python.org/moin/UsingPickle).
 
-In order to reuse our trained models to predict in-hospital mortality or severe complications after acute ischemic strokes, our jupyter notebook files need to be downloaded together with the respective .pkl-files that contain information on the trained models.
+In order to reuse our trained models to predict in-hospital mortality or severe complications after acute ischemic strokes, first install jupyter notebook (https://jupyter.org/install). Furthermore, our jupyter notebook files need to be downloaded together with the respective .pkl-files that contain information on the trained models.
 
-
-
+When run, the following clinical information need to be entered for each new patient (respective fields in the jupyter notebooks are marked):
 
 #### Required patient information to generate new predictions
-
-The following clinical information need to be entered to generate predictions for each new patient (respective fields in the jupyter notebooks are marked):
 
 Age (in years)
 
